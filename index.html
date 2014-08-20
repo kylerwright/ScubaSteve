@@ -1,18 +1,27 @@
-<!DOCTYPE html>  
+<!DOCTYPE html>
 <html>
 
-<head>  
+<head>
     <meta charset="utf-8" />
     <title> Fear the Jelly </title>
-
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="phaser.min.js"></script>
     <script type="text/javascript" src="main.js"></script>
+    <style type='text/css'>
+    	#highScore {
+    		position: absolute;
+    		right: 100px;
+    		top: 30px;
+    	}
+    </style>
 </head>
 
 <body>
-
-    <p> WASD to move man </p>
     <div id="gameDiv"> </div>
+    <div id="highScore">
+    	<p> The Real Scuba Steves </p>
+    	<ol id="highScoreList"> </ol>
+    </div>
 
-</body>  
-</html>  
+</body>
+</html>
